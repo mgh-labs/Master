@@ -1,0 +1,83 @@
+<!--My Personal Website-->
+
+<!--HTML-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Header-->
+<head>
+
+<!--Link Custom Style Sheet-->
+<link rel="stylesheet" href="style.css">
+
+<!--Link Custom JavaScript-->
+<script src="javascript.js"></script>
+
+<!--Title-->
+
+<title>Life of Ry</title>
+
+<!--Meta Information-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<!--Body-->
+<body>
+
+<div class="main">
+
+<!--Header-->
+    <br>
+    <div class="header">
+        <img src="images/logo-circle-navy.JPG" class="logo-header">
+    </div>
+    <br>
+
+<!--Navbar-->
+    <div class="navbar">
+        <button class="tablinks" onclick="openpage(event, 'Home')">Home</button>
+        <button class="tablinks" onclick="openpage(event, 'Books')">Books</button>
+        <button class="tablinks" onclick="openpage(event, 'Resume')">Resume</button>
+    </div>
+
+<!--Home page content-->
+    <div id="Home" class="tabcontent-default">
+        <div class="tabcontent-container">
+            <h1>
+                Bio
+            </h1>
+            <p>
+                Welcome to the Life of Ry.
+            </p>
+            <br>
+            <img src="images/gem.jpg" class="body-img-ls">
+            <i>Gem Lake, John Muir Wilderness, CA</i>
+            <br>
+            <h1>
+                More Content
+            </h1>
+            <p>
+                More content...
+            </p>
+            <br>
+            <img src="images/blue.jpg" class="body-img-ls">
+            <i>Blue Lake, Sabrina Basin, CA</i>
+        </div>
+    </div>
+
+<!--Books page content--> 
+    <div id="Books" class="tabcontent">
+        <h1>Books</h1>
+    </div>
+
+<!--Resume page content-->
+    <div id="Resume" class="tabcontent">
+        <h1>Resume</h1>
+        <iframe src="images/Resume.pdf" class="pdf" type="application/pdf"></iframe>
+    </div>
+</div>
+
+
+</body>
