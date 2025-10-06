@@ -1,0 +1,96 @@
+/* Body */
+* {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+ margin: 0;
+ background-color: #91c7cc;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  margin-top: 0px;
+  z-index: 100;
+  width: 100%;
+}
+
+/* Logo Container */
+.logo-container {
+  height: 120px;
+  background-color: #ffffff;
+}
+
+/* Logo */
+.logo-header {
+  height: inherit;
+  display: block;
+  margin: auto;
+}
+
+/* Navbar */
+.navbar {
+  height: 60px;
+  overflow: auto;
+  background-color: #c9ac5c;
+}
+
+/* Navbar Buttons */
+.tablinks {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20.5px;
+  transition: 0.3s;
+  font-weight: bold;
+  background-color: inherit;
+  color: #394647;
+}
+
+.tablinks:hover {
+  background-color: #ffffff;
+  color: #c9ac5c;
+}
+
+/* Body */
+.body {
+  position: relative;
+  margin-top: 157px;
+  height: 1000px;
+  z-index: 0;
+  background-color: #ffffff;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  height: 1000px;
+  background-color: #91c7cc;
+  text-align: center;
+}
+
+.logo-footer {
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+.flag {
+  height: 100px;
+  mix-blend-mode: multiply;
+}
+
+.payment-sheet {
+  height: 500px;
+  mix-blend-mode: multiply;
+}
+
+.qr-codes {
+  height: 250px;
+  mix-blend-mode: multiply;
+}

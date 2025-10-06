@@ -1,0 +1,95 @@
+<!--Climbyr Main HTML-->
+
+<!--HTML-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Header-->
+<head>
+
+<!--Meta Information-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--Link Custom Style Sheet-->
+<link rel="stylesheet" href="style.css">
+
+<!--Link Custom JavaScript-->
+<script src="javascript.js"></script>
+
+<!--Title-->
+<title>Climbyr</title>
+
+<!--Title bar icon-->
+<link class="title-bar-logo" rel="icon" href="images/climbyr-logo-digital-3.png" type="image/x-icon">
+
+</head>
+
+<!--Body-->
+<body>
+
+<!--Main container-->
+<div class="main">
+
+    <!--Navbar tablinks container-->
+    <div id="navbar" class="navbar">
+
+        <button id="navbar-pagelinks-home-logo" class="pagelinks" onclick="openpage(event, 'home')"></button>
+
+        <button id="navbar-pagelinks-page1" class="pagelinks" onclick="openpage(event, 'page1')">Page1</button>
+
+        <button id="navbar-pagelinks-page2" class="pagelinks" onclick="openpage(event, 'page2')">Page2</button>
+
+        <button  id="navbar-pagelinks-page3" class="pagelinks" onclick="openpage(event, 'page3')">Page3</button>
+
+        <button id="navbar-dropdown" class="navbar-dropdown" onclick="openHeaderNavbarDropdown()">
+            <div class="navbar-dropdown-icon"></div>
+        </button>
+    </div>
+
+
+    <!--Page1 main container (default)-->
+    <div id="home" class="page-container-default">
+
+        <!--Page subcontainer-->
+        <div class="page-subcontainer">
+
+            <!--Page1 section 1-->
+            <div class="page1-section1">
+                <img src="images/img-1.png" class="full-width-img">
+                <div class="text1">
+                    <h6>Work <i>Smarter</i></h6>
+                </div>
+            </div>
+
+            <!--Page1 section 2-->
+
+        </div>
+    </div>
+
+    <!--Page1 content--> 
+    <div id="page1" class="page-container">
+        <div class="tabcontent-container">
+            <h1>Page1</h1>
+        </div>
+    </div>
+
+    <!--Page2 content-->
+    <div id="page2" class="page-container">
+        <div class="tabcontent-container">
+            <h1>Page2</h1>
+        </div>
+    </div>
+
+    <!--Page3 content-->
+    <div id="page3" class="page-container">
+        <div class="tabcontent-container">
+            <h1>Page3</h1>
+        </div>
+    </div>    
+
+
+</div>
+
+
+</body>

@@ -1,0 +1,90 @@
+* {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+body {
+    margin: 0;
+}
+
+.logo-header {
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+
+.navbar {
+    height: 60px;
+    overflow: auto;
+    background-color: #235879;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.tablinks {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20.5px;
+    transition: 0.3s;
+    font-weight: bold;
+    background-color: inherit;
+    color: #ffffff;
+}
+  
+.tablinks:hover {
+    background-color: #8cb5cc;
+    color: #235879;
+}
+
+.navbar button.active {
+    background-color: #8cb5cc;
+    color: #235879;
+}
+
+.tabcontent {
+    display: none;
+    animation: fadeEffect 2s;
+}
+
+.tabcontent-default {
+    animation: fadeEffect 2s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+  
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.tabcontent-container {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.pdf {
+    width: 500px; 
+    height: 375px;
+}
+
+.body-img-ls {
+    display: block;
+    margin: auto;
+    width: 90%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+}
+
+.body-img-p {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
